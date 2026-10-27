@@ -24,7 +24,7 @@ local userInputService = game:GetService("UserInputService")
 
 _G.LimbControllerActive = true
 
-local LimbExtenderLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/nScripts/refs/heads/main/Limb_Extender_Library"))()
+local LimbExtenderLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/nScripts/refs/heads/main/Sub/Limb_Extender_Library"))()
 local limbExtender = LimbExtenderLibrary({
     LISTEN_FOR_INPUT = false,
     USE_HIGHLIGHT = false,
