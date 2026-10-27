@@ -1518,7 +1518,7 @@ moveLoadBtn.MouseButton1Click:Connect(function()
         statusLabel.TextColor3 = Color3.fromRGB(255, 165, 0)
         task.spawn(function()
                 local success, err = pcall(function()
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/nScripts/refs/heads/main/ADWS_Movement.lua"))()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/NoirStillHere/nScripts/Sub/refs/heads/main/ADWS_Movement.lua"))()
                 end)
                 if success then
                         statusLabel.Text = "Movement loaded successfully!"
